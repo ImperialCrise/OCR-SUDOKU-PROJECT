@@ -33,10 +33,10 @@ make clean
 ```
 
 ## Credits :
- * [Emre Ulusoy](h)
- * []()
- * [y]()
- * [](he)
+ * [Emre Ulusoy](https://github.com/ImperialCrise)
+ * [Guyno]()
+ * [Youness]()
+ * [DankaTeam](he)
 
 ## Nice pictures of the project
 
