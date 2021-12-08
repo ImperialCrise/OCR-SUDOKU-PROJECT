@@ -9,11 +9,10 @@ You need to have these installed :
 
 To download our project :
 ```bash
-https://github.com/ImperialCrise//archive/refs/heads/main.zip
 wget https://github.com/ImperialCrise/OCR-SUDOKU-PROJECT/archive/refs/heads/main.zip \
--O "${GH_REPO}-${GH_BRANCH}.zip" && \ 
-unzip ./"${GH_REPO}-${GH_BRANCH}.zip" && \
-rm ./"${GH_REPO}-${GH_BRANCH}.zip"
+-O "OCR-SUDOKU-PROJECT-main.zip" && \ 
+unzip ./"OCR-SUDOKU-PROJECT-main.zip" && \
+rm ./"OCR-SUDOKU-PROJECT-main.zip"
 ```
 To compile our project :
 ```bash
