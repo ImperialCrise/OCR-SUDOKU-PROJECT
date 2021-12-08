@@ -171,9 +171,9 @@ void on_reset(GtkButton *button, gpointer user_data)
 	}
 }
 
-void DISPLAY(char* filename){
+GdkPixbuf* load_pixbuf(GdkPixbuf* pix, char* filename){
 	GError* err = NULL;
-	GdkPixbuf* pix = gdk_pixbuf_new_from_file_at_scale(filename,800, 500, TRUE,&err);
+	pix = gdk_pixbuf_new_from_file_at_scale(filename,800, 500, TRUE,&err);
 
 	if (err != NULL)
 	{
@@ -182,13 +182,7 @@ void DISPLAY(char* filename){
 		return NULL;
 	}
 
-	gtk_image_set_from_pixbuf(image, pix);
-
-	free(pix);
-}
-
-GdkPixbuf* load_pixbuf( pix, char* filename){
-
+	return pix;
 }
 
 SDL_Surface* zoomimage(SDL_Surface* grille, SDL_Rect* position){
