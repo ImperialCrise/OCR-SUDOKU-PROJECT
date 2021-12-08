@@ -7,6 +7,14 @@ You need to have these installed :
  * libsdl2-ttf-dev
  * libgtk-3-dev
 
+To download our project :
+```bash
+https://github.com/ImperialCrise//archive/refs/heads/main.zip
+wget https://github.com/ImperialCrise/OCR-SUDOKU-PROJECT/archive/refs/heads/main.zip \
+-O "${GH_REPO}-${GH_BRANCH}.zip" && \ 
+unzip ./"${GH_REPO}-${GH_BRANCH}.zip" && \
+rm ./"${GH_REPO}-${GH_BRANCH}.zip"
+```
 To compile our project :
 ```bash
 make
