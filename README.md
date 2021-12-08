@@ -39,5 +39,5 @@ make clean
 
 ## Nice pictures of the project
 ![Menu](datas/UI.jpg)
-![Menu 2](datas/UI.jpg)
+![Menu 2](datas/UI2.jpg)
 
