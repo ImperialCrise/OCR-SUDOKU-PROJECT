@@ -31,6 +31,12 @@ To clean the project :
 make clean
 ```
 
+
+## FAQ :
+ * I can't load an image, why ?
+ Because you didn't open with admin rights or you need to create a folder named "tmp" in /datas/
+
+
 ## Credits :
  * [Emre Ulusoy](https://github.com/ImperialCrise)
  * [Guyno]()
